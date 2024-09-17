@@ -4,10 +4,13 @@
     box-sizing: border-box;
     left: 0;
 }
-
-body {
-    margin-top: 20%;
-    height: 70vh;
+body{
+    min-width: 800px;
+}
+.container {
+    /* border: solid 1px black; */
+    margin-top: 5%;
+    min-height: 80vh;
     background-image: url(template.png);
     background-repeat: no-repeat;
     background-size: 1000px 700px;
@@ -18,36 +21,36 @@ body {
 }
 
 #title, #name, #dimensions, #medium, #year {
-    position: absolute;
+    position: fixed;
     font-size: 1.5em;
-    width: 30%;
+    width: 40%;
     height: 4%;
-    border: none;
+    /* border: solid 1px black; */
 }
 
 /* Individual positioning */
 #title {
-    top: 45.4%;
+    top: 41.4%;
     left: 33%;
 }
 
 #name {
-    top: 52%;
+    top: 48%;
     left: 31%;
 }
 
 #dimensions {
-    top: 58.5%;
+    top: 54.5%;
     left: 31%;
 }
 
 #medium {
-    top: 65.2%;
-    left: 28%;
+    top: 61.2%;
+    left: 29%;
 }
 
 #year {
-    top: 71.6%;
+    top: 67.6%;
     left: 33%;
 }
 
